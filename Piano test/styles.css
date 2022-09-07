@@ -1,0 +1,99 @@
+body {
+  background-color: lightgreen;
+
+}
+
+.piano {
+  width: 500px;
+  height: 200px;
+  margin: 25% auto;
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
+
+}
+
+.padding-top {
+  max-width: 500px;
+  height: 40px;
+  background-color: black;
+}
+
+.key-w {
+  display: inline-block;
+  width: 68px;
+  height: 160px;
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+}
+
+.black {
+  margin-top: -165px;
+  margin-left: 19px;
+}
+
+.black-key-blank {
+  display: inline-block;
+  overflow: auto;
+  margin-left: 34px;
+  width: 34px;
+  height: 100px;
+  background-color: black;
+  background-color: transparent;
+
+
+}
+
+.black-key-1 {
+  display: inline-block;
+  overflow: auto;
+
+  width: 34px;
+  height: 100px;
+
+  margin-left: 34px;
+  background-color: black;
+}
+
+.black-key-2 {
+  display: inline-block;
+  overflow: auto;
+
+  width: 34px;
+  height: 100px;
+
+  margin-left: 34px;
+  background-color: black;
+}
+
+.black-key-3 {
+  display: inline-block;
+  overflow: auto;
+
+  width: 34px;
+  height: 100px;
+
+  margin-left: 34px;
+  background-color: black;
+}
+
+.black-key-4 {
+  display: inline-block;
+  overflow: auto;
+
+  width: 34px;
+  height: 100px;
+
+  margin-left: 34px;
+  background-color: black;
+}
+.black-key-5 {
+  display: inline-block;
+  overflow: auto;
+
+  width: 34px;
+  height: 100px;
+
+  margin-left: 34px;
+  background-color: black;
+}
