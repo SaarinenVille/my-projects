@@ -221,7 +221,7 @@ footer h2 {
   font-size: 1em;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   body {
     width: 530px;
   }
