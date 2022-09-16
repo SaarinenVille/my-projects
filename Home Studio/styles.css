@@ -250,7 +250,15 @@ footer h2 {
 }
 
 .section-1 {
+  max-width: 100%;
 padding: 200px 0px;
+}
+.section-2 {
+  max-width: 100%;
+
+}
+.section-3 {
+  max-width: 100%;
 }
 
 .content-1{
