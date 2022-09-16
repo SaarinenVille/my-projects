@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&display=swap" rel="stylesheet">
     <title></title>
   </head>
   <body>
@@ -14,6 +20,12 @@
         <h1 class="header-bold">Home Studio</h1>
         <h3 class="italic">How to build a music studio of your dreams</h3>
         </div>
+        <nav>
+          <p>
+          <a href="index.html" class="button">Main</a>
+          <a href="#my_studio" class="button">My Studio</a>
+          </p>
+        </nav>
       </div>
     </header>
 
@@ -21,32 +33,115 @@
 
       <article class="main-content">
 
+        <section class="first">
         <section class="started">
-          <h2>How to get started</h2>
+          <h2>How To Get Started</h2>
           <p>Producing your own music at home is nowadays easier than ever before.
           Maybe the biggest reason for that is that music production mostly happens
           with digital measures instead of doing things analogically, how they were used to.</p>
-          <p>Here is a list of the essential things you need to get started with your home studio.</p>
+          <p>In this page, I will point out some essential things to set up your own music studio, from gear to room acoustics.</p>
         </section>
+      </section>
+
+
         <section class="section-2">
-          <h2>This is section 2</h2>
+          <h2>Essential Equipment</h2>
+          <h3>Here is a list of equipment you need to get started with home studio:</h3>
+        <div class="list_section">
           <ul class="itemlist">
+            <div class="list1">
             <li>A computer</li>
-            <li>Microphone</li><img class="kuvat" src="Kuvat/microphone.jpg" alt="" width="250px;">
-            <li>Headphones</li>
-            <li>Audio interface</li>
-            <li>An instrument with midi,- xlr or 6,3mm jack output</li><img src="Kuvat/guitar.jpg" alt="">
+            <p>You need a computer to record and mix your music.
+            Whether it's a desktop or a laptop, the choice is yours to make.
+            Desktop pc:s tend to be more powerful and have more connection ports,
+            but laptops are more quiet and more portable if you are recording on the go.
+            <p>You will also need to install a DAW(Digital Audio Workstation) to your computer.</p>
+
+          </p>
+          </div>
           </ul>
+          <ul>
+          <div class="list2">
+            <li>Microphone</li>
+            <p>Microphone is a must have if you want to record vocals or acoustic instruments.
+            You can also mic up guitar or bass amp if you have one. There's mainly two kinds
+            of microphones, condenser and dynamic. Condenser mics capture sound waves from longer distance
+          than dynamic mics.</p>
+          </div>
+          </ul>
+          <ul>
+          <div class="list3">
+            <li>Headphones</li>
+            <p>If you have difficulties choosing between monitor speakers and headphones,
+            i'd say go with the headphones. If you are recording through microhone,
+            it would pick up the noise from the speakers. Later on, you will definately need
+            both to analyze the sound of the mix better.</p>
+          </div>
+          </ul>
+          <ul>
+          <div class="list4">
+            <li>Audio interface</li>
+            <p>You'll need an audio interface in order to get the audio signal to your computer and DAW.
+            They usually come with 2 or more input ports, in which you plug your instrument or microphone.
+            The audio interface itself usually uses a usb or firewire connection to computer.</p>
+          </div>
+          </ul>
+        </div>
+        </section>
+
+
+      <section class="third">
+        <section class="section-3" id="my_studio">
+          <h2>My Home Studio</h2>
+          <p>I have a home studio setup in one of our bedrooms. I use this space for all my work, not just music.
+             I am studying programming so the same space works fine for that too. One important thing that is missing
+             from my studio is decent acoustic treatment In order to improve the acoustics of the room, I have planned
+             to put acoustic panels to front and back walls and bass traps to the corners of the walls.
+             </p>
+
+        </section>
+        <div class="oma_studio">
+
+            <img src="Kuvat/tyopiste.jpg" alt="tyopiste image" class="studio_img" id="studio_item">
+            <img src="Kuvat/guitars.jpg" alt="instrumentit image" class="studio_img">
+            <img src="Kuvat/basso.jpg" alt="tyopiste image" class="studio_img" id="studio_item">
+            <img src="Kuvat/korg.jpg" alt="instrumentit image" class="studio_img">
+            <img src="Kuvat/mic.jpg" alt="tyopiste image" class="studio_img" id="studio_item">
+            <img src="Kuvat/jbl.jpg" alt="instrumentit image" class="studio_img">
+            <img src="Kuvat/computer.jpg" alt="tyopiste image" class="studio_img" id="studio_item">
+            <img src="Kuvat/interface.jpg" alt="instrumentit image" class="studio_img">
+
+        </div>
+
+        <section class="my_gear">
+          <h3>List of some my equipment</h3>
+            <ul class="gear_list">
+            <h4>Guitars</h4>
+            <li>Fender Stratocaster</li>
+            <h4>Keyboard</h4>
+            <li>Korg Krome</li>
+            <h4>Microphone</h4>
+            <li>SE X1 Condenser mic</li>
+            <h4>Monitors</h4>
+            <li>JBL Studio monitors</li>
+            <h4>Audio interface</h4>
+            <li>Presonus VSL22 </li>
+            <h4>Headphones</h4>
+            <li>AKG 240 Studio</li>
+          </ul>
+
+        </section>
+
+      </section>
+
       </article>
-      <aside class="sivupalkki">
-        <h1>Sivupalkki</h1>
-        <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-      </aside>
+
 
     </main>
 
     <footer>
-      <h2>Tänne tulee footer</h2>
+      <br>
+      <h2>Made by: Ville Saarinen</h2>
     </footer>
   </body>
 </html>
