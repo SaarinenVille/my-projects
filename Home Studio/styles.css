@@ -222,7 +222,7 @@ footer h2 {
   font-size: 1em;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
 
 
   header {
@@ -243,9 +243,7 @@ footer h2 {
   }
 
   .button {
-    float: left;
-    margin-top: -250px;
-    margin-left: 0px;
+display: none;
   }
 
 #button2 {
