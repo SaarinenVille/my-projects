@@ -1,18 +1,13 @@
+
+
 body {
+  width: 100%;
   background-color: white;
   font-size: 22px;
   margin: 0 auto;
-  position: relative;
 
 }
 
-main{
-line-height: 1.6;
-}
-
-.header {
-
-}
 .header-top {
   padding-top: 15px;
   background-color: black;
@@ -20,6 +15,37 @@ line-height: 1.6;
   height: 225px;
   position: fixed;
   border-bottom: 1px solid white;
+}
+
+.header-text {
+padding-left: 25px;
+margin: auto;
+text-shadow: 2px -2px 20px;
+}
+
+.header-text h1 {
+color: white;
+margin: 10px 0 0 0;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header-text h3 {
+  float: left;
+}
+
+.header-text-bold {
+  font-size:  3em;
+}
+
+.sub-header-text {
+  font-style: italic;
+  font-family: 'Source Code Pro', monospace;
+  color: #0D4D4D;
+  margin-top: 0px;
+}
+
+main{
+line-height: 1.6;
 }
 
 nav {
@@ -49,23 +75,6 @@ a {
   opacity: 1;
 }
 
-.header-text {
-padding-left: 25px;
-margin: auto;
-text-shadow: 2px -2px 20px;
-}
-
-.header-text h1 {
-color: white;
-margin: 10px 0 0 0;
-font-family: 'Source Sans Pro', sans-serif;
-}
-
-.header-text h3 {
-  float: left;
-  margin-top: px;
-}
-
 h2 {
  font-size: 3em;
  text-align: center;
@@ -86,18 +95,7 @@ p {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.header-bold {
-  font-size:  3em;
-}
-
-.italic {
-  font-style: italic;
-  font-family: 'Source Code Pro', monospace;
-  color: #0D4D4D;
-  margin-top: 0px;
-}
-
-.first {
+.section-1 {
   width: 100%;
   padding: 125px 0;
   background-image: url(Kuvat/studio.jpg);
@@ -106,7 +104,7 @@ p {
   background-color: #303030;
 }
 
-.started {
+.content-1 {
   margin: auto;
   max-width: 700px;
   text-align: justify;
@@ -115,7 +113,7 @@ p {
   color: white;
 }
 
-.started h2 {
+.content-1 h2 {
   margin-top: 150px;
 }
 
@@ -128,7 +126,7 @@ p {
   border-radius: 10px;
 }
 
-.third {
+.section-3 {
   margin: auto;
   width: 100%;
   background-color: #303030;
@@ -136,7 +134,7 @@ p {
 
 }
 
-.section-3 {
+.content-3 {
   margin: auto;
   max-width: 700px;
   padding: 15px;
@@ -192,8 +190,8 @@ margin-top: 50px;
 
 .studio_img {
   display: inline-table;
-  width: 500px;
-  height: 375px;
+  width: 400px;
+  height: 300px;
   object-fit: cover;
   border-radius: 10px;
   border: 2px solid black;
@@ -221,5 +219,66 @@ footer {
 footer h2 {
   text-align: center;
   font-size: 1em;
+}
 
+@media (max-width: 480px) {
+  body {
+    width: 530px;
+  }
+
+  .header-top {
+    height: 250px;
+
+  }
+  .header-text {
+    padding: 0;
+    text-align: center;
+  }
+
+  a {
+    font-size: 1em;
+  }
+
+  .button {
+    float: left;
+    margin-top: -250px;
+    margin-left: 30px;
+  }
+
+#button2 {
+  float: right;
+}
+
+.section-1 {
+padding: 270px 0px;
+}
+
+.section-1 p {
+  padding: 0 25px;
+}
+
+  .list_section {
+  margin: 0 auto;
+  }
+
+
+  ul {
+    margin: 0 auto;
+    display: block;
+    max-width: 90%;
+    padding-right: 20px;
+  }
+
+.section-3 p {
+  padding: 0 25px;
+}
+
+.oma_studio{
+  margin: 0 auto;
+}
+  .studio_img {
+    display: block;
+
+
+  }
 }
