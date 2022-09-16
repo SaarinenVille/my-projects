@@ -226,8 +226,12 @@ footer h2 {
 
 
   header {
-    height: 250px;
+    height: 180px;
+    font-size: 0.8em;
+  }
 
+  header h3 {
+    display: none;
   }
   .header-text {
     padding: 0;
