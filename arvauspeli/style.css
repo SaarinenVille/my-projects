@@ -62,7 +62,7 @@ button:hover {
 @media (max-width: 600px) {
 
 div {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   width: 300px;
 }
 
@@ -74,8 +74,16 @@ h3, p {
   font-size: 26px;
 }
 
+h1, h3, p {
+  padding: 0;
+}
+
 button {
   font-size: 2em;
+  width: 90%;
+  height: 60px;
+  margin: auto;
+
 }
 
 main {
