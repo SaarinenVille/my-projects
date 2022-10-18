@@ -1,0 +1,24 @@
+body{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+header {
+  font-size: 2em;
+}
+
+main {
+  width: 1350px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+
+
+}
