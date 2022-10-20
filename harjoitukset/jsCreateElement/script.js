@@ -16,12 +16,7 @@ lisaaBtn4.addEventListener("click", addNew4)
       container1.appendChild(newDiv3);
       newDiv3.classList.add("kortti_div");
     }
-  }
-
-
-
-
-
+  };
 
 
 
@@ -33,12 +28,25 @@ lisaaBtn4.addEventListener("click", addNew4)
       newDiv4.id = "new_div" + j;
       container2.appendChild(newDiv4);
       newDiv4.classList.add("kortti_div");
-
     }
-
   };
 
+  let kuva = document.createElement("img");
+  kuva.setAttribute("src", "imgs/kuva0.png");
+  kuva.setAttribute("height", "150");
+  kuva.setAttribute("width", "150");
 
+  document.addEventListener('click', function(e){
+      if(e.target && e.target.id== 'new_div0') {
+        console.log("terve");
+        document.getElementById('new_div0').appendChild(kuva);
+       }
+       else {
+         kuva.remove();
+       }
+
+
+   });
 
 
 
