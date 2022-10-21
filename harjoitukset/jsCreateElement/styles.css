@@ -15,7 +15,7 @@ header {
   width: 25%;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-bottom: 50px;
 }
 
@@ -26,7 +26,7 @@ header {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.kortti_div {
+.img_grid {
   width: 100%;
   height: 150px;
   grid-column-gap: 15px;
