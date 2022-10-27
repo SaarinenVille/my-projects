@@ -1,14 +1,46 @@
 body {
-  background: black;
+  margin: 0;
+  height: 100vh;
+  background: lightblue;
   font-size: 14px;
 }
 
-#wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  width: 600px;
+header {
+  position: fixed;
+  margin: 0 auto;
+  padding: 0;
+  background: black;
+  width: 100%;
+  height: 200px;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  margin-left: 5%;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.navi {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 10%;
+  margin-left: 5%;
+}
+
+a{
+  width: 150px;
+  display: block;
+  color: lightgreen;
+  font-size: 1.5em;
+}
+
+#clockWrapper {
+  float: right;
+  margin: 25px 25px 0 0;
+  width: 300px;
   padding: 5px;
   border-radius: 20px;
   background: linear-gradient(#56c79f, #2c4a3f);
@@ -18,7 +50,31 @@ body {
 #clockDisplay {
   text-align: center;
   color: #044275;
-  font-size: 6em;
+  font-size: 3em;
+  font-weight: bolder;
   font-family: 'Orbitron', sans-serif;
   letter-spacing: 7px;
+}
+
+main{
+  height: 100%;
+}
+
+#section_1 {
+  background-color: white;
+  height: 50%;
+}
+
+#section_2 {
+  background-color: lightblue;
+  height: 50%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+  background: black;
+  width: 100%;
+  height: 100px;
 }
