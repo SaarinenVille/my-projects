@@ -54,6 +54,8 @@ img {
   display: block;
   max-width: 100%;
   border-radius: 10px;
+  max-height: 250px;
+  max-width: 300px;
 }
 
 strong { font-weight: var(--fw-bold) }
@@ -267,10 +269,31 @@ nav { display: none; }
 .my-work {
    background-color: var(--clr-dark);
    color: var(--clr-light);
-   text-align: center;
  }
 
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 15px;
+}
+
+.portfolio_item {
+  text-align: center;
+  text-decoration: none;
+  color: var(--clr-light);
+}
+
+.portfolio_img {
+  margin: auto;
+}
+
+span {
+  font-style: italic;
+}
+
+@media (min-width: 1270px) {
+  .portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
