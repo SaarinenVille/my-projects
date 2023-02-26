@@ -228,7 +228,7 @@ footer h2 {
 
 
   header {
-    height: 180px;
+    height: 80px;
     font-size: 0.8em;
   }
 
@@ -238,6 +238,13 @@ footer h2 {
   .header-text {
     padding: 0;
     text-align: center;
+  }
+  .header-text-reg {
+    font-size: 1em;
+  }
+  .header-text-bold {
+    padding: 0;
+    
   }
 
   a {
