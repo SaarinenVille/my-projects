@@ -316,7 +316,7 @@ body {
     }
     .sky {
         background: radial-gradient(
-            circle closest-corner at 15% 15%,
+            circle closest-corner at 85% 15%,
             #ccc 0%,
             #ccc 20%,
             #445 21%,

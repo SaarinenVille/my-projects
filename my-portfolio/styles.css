@@ -297,3 +297,20 @@ span {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
+
+/* Social list */
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+footer h3 {
+  margin: auto;
+}
+
+.social-list_item img {
+  max-width: 75px;
+  margin: 15px auto;
+}
