@@ -1,6 +1,6 @@
 *,
 *::before,
-*::after, {
+*::after {
   box-sizing: border-box;
 }
 
@@ -86,8 +86,7 @@ strong { font-weight: var(--fw-bold) }
 
  .btn:hover {
    transform: scale(1.1);
-
- }
+  }
 
 /* Typography */
 
